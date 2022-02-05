@@ -1,6 +1,5 @@
 #include <iostream>
-#include "problems/squareMatrix/squareMatrix.h"
-#include "problems/comparisonOfSorts/comparingOfSorts.h"
+#include "comparingOfSorts.h"
 
 int main()
 {
@@ -13,6 +12,10 @@ int main()
     initMass(array, N);
     std::cout << "Choice: " << sortByChoice(array, N) << std::endl;
 
+    //--------------------------------------------------------
+    // В результате получаем, что шейкер-сортировка ~ в 3 раза уступает сортировке
+    // методом простых вставок, конечно, если речь идёт не о почти отсортированном массиве.
+    //--------------------------------------------------------
 
     return 0;
 }
