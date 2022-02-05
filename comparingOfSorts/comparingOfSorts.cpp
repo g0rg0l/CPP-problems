@@ -1,6 +1,6 @@
 #include <iostream>
 #include "ctime"
-#include "comparisonOfSorts.h"
+#include "comparingOfSorts.h"
 
 //---------------------------------------------------------------------
 // Инициализация одномерного массива числами [0; 999].
