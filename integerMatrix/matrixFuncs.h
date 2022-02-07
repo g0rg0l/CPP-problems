@@ -1,5 +1,3 @@
-#ifndef BOOK_ABOUT_CPP_MATRIXFUNCS_H
-#define BOOK_ABOUT_CPP_MATRIXFUNCS_H
 #include "Matrix.h"
 
 // Функция, нужная для корректного заполнения матриц функцией rand(). Должна быть в начале программы.
@@ -34,4 +32,3 @@ int getDet(Matrix matrix);
 //------------------------------------------------------------------------------------------
 Matrix subMatrix(int **matrix, int n, unsigned int x, unsigned int y);
 
-#endif //BOOK_ABOUT_CPP_MATRIXFUNCS_H
