@@ -30,7 +30,7 @@ This constructor has 2 optional arguments:
 ###### Example:
 `Matrix matrix (3, 3, false, 1);` 
 
-To output the matrix to the console, the `Matrix` - `.show()' class method is used.
+To output the matrix to the console, the `Matrix` - `.show()` class method is used.
 
 ###### Example:
 ```
