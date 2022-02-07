@@ -16,12 +16,6 @@ Matrix declaration creates an object of the 'Matrix' class, and subsequent initi
 ###### Example:
 `Matrix matrix (3, 3);`
 
-###### Out:                    
-0  | 0  | 0  
-------------- | ------------- | -------------
-0  | 0  | 0  
-0  | 0  | 0  
-
 This construction will write a 3x3 matrix object to the `matrix` variable. According to the standard, it is enough to specify only the dimensions of the matrix that you want to create, then all its elements will be zeros.
 
 This constructor has 2 optional arguments:
@@ -33,20 +27,23 @@ This constructor has 2 optional arguments:
 ###### Example:
 `Matrix matrix (3, 2, true);` 
 
-###### Out:                    
-1  | 7
-------------- | -------------
-0  | 9
-8  | 8
-
 ###### Example:
 `Matrix matrix (3, 3, false, 1);` 
 
+To output the matrix to the console, the `Matrix` - `.show()' class method is used.
+
+###### Example:
+```
+setTimeSeed();
+
+Matrix matrixToShow(3, 3, true);
+matrixToShow.show();
+```
 ###### Out:                    
-1  | 1  | 1  
+3  | 1  | 9 
 ------------- | ------------- | -------------
-1  | 1  | 1  
-1  | 1  | 1  
+5  | 6  | 1  
+3  | 0  | 4  
 
 ### *Built-in functions*
 
@@ -62,3 +59,11 @@ This constructor has 2 optional arguments:
 > The function calculates the maximum element of the matrix. The result is an int number.
 - `getDet(Matrix)`
 > The function calculates the determinant of the matrix. The result is an int number.
+
+### Conslusion
+
+This project is written only for integer matrices, and a set of tools for working with matrices with floating-point numbers will soon be implemented.
+
+A more detailed description of the functions can be found in the header files.
+
+**_Alimpiev Dmitry._**
