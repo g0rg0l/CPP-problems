@@ -66,4 +66,4 @@ This project is written only for integer matrices, and a set of tools for workin
 
 A more detailed description of the functions can be found in the header files.
 
-**_Alimpiev Dmitry._**
+**_Alimpiev Dmitry. Saint-Petersburg, 2022_**
