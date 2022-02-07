@@ -1,7 +1,3 @@
-#ifndef BOOK_ABOUT_CPP_MATRIX_H
-#define BOOK_ABOUT_CPP_MATRIX_H
-
-
 class Matrix
 {
 
@@ -12,7 +8,7 @@ private:
     int** m_data; // Матрица
 
 public:
-    // Конструкторы и внутренние  (скрытые) функции
+    // Конструкторы и внутренние функции
     //------------------------------------------------------------------------------------------
     Matrix(int rows, int columns, bool random = false, int init = 0); // Конструктор
 
@@ -33,6 +29,3 @@ public:
     void show(); // Вывод матрицы на консоль
 
 };
-
-
-#endif //BOOK_ABOUT_CPP_MATRIX_H
