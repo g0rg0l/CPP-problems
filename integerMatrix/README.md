@@ -65,5 +65,3 @@ matrixToShow.show();
 This project is written only for integer matrices, and a set of tools for working with matrices with floating-point numbers will soon be implemented.
 
 A more detailed description of the functions can be found in the header files.
-
-**_Alimpiev Dmitry. Saint-Petersburg, 2022_**
